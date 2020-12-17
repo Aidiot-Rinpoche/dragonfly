@@ -16,7 +16,7 @@ except:
 def main():
   """ Main function. """
   domain_bounds = [[-5, 10], [0, 15]]
-  max_capital = 100
+  max_capital = 10
   opt_val, opt_pt, _ = maximise_function(branin, domain_bounds, max_capital)
   print('Optimum Value in %d evals: %0.4f'%(max_capital, opt_val))
   print('Optimum Point: %s'%(opt_pt))
